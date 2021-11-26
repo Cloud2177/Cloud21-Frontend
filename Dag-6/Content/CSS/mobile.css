@@ -1,0 +1,38 @@
+#navbar ul,
+#navbar ul li {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li a {
+  padding: 0.4rem;
+  border-bottom: #444 dotted 1px;
+}
+
+.showcase-content h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+#Gallery-content .Gallery-Image {
+  /* background: url("/Bilar/show.jpg") center center/cover no-repeat; */
+  width: 100%;
+  min-height: 100%;
+  /* float: left; */
+}
+
+#Gallery-content .Gallery-info {
+  width: 100%;
+  /* float: right; */
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  background: #333;
+  color: #fff;
+}
+
+.box {
+  width: 100%;
+  padding: 3rem;
+}
