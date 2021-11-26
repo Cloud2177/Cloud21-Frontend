@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+html {
+  font-size: 10px;
+}
+
 #navbar ul li a {
   padding: 0.4rem;
   border-bottom: #444 dotted 1px;
