@@ -11,9 +11,9 @@ html {
   font-size: 10px;
 }
 
-/* body {
+body {
   font-family: "Lato", sans-serif;
-} */
+}
 
 h1,
 h2,
@@ -47,134 +47,6 @@ p {
 .info-details {
   color: rgb(128, 0, 0);
   background-color: lightblue;
-}
-
-#showcase {
-  background: url("/Bilar/landing.jpg") center center/cover no-repeat;
-  position: relative;
-  height: 100vh;
-  /* width: 400; */
-}
-
-.showcase-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: #fff;
-  text-align: center;
-  padding: 0 2.3rem;
-}
-
-.showcase-content h1 {
-  font-size: 4.5rem;
-  line-height: 1.8rem;
-}
-
-.showcase-content p {
-  font-size: 2.7rem;
-  max-width: 70rem;
-  margin: 1.5rem 2.8rem;
-}
-
-#showcase::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-#showcase * {
-  z-index: 1;
-}
-
-#gallery .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-#gallery .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-}
-
-#gallery .column .column-1,
-#gallery .column .column-2 {
-  height: 100%;
-}
-
-#gallery img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#gallery .column-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 3rem;
-}
-
-#gallery .column-2 {
-  padding: 3rem;
-}
-
-/* #Gallery-content {
-  height: 500px;
-}
-
-#Gallery-content .Gallery-Image {
-  background: url("/Bilar/show.jpg") center center/cover no-repeat;
-  width: 50%;
-  min-height: 100%;
-  float: left;
-}
-
-#Gallery-content .Gallery-info {
-  width: 50%;
-  float: right;
-  height: 100%;
-  text-align: center;
-  padding: 50px 30px;
-  overflow: hidden;
-  background: #333;
-  color: #fff;
-}
-
-#Gallery-content .Gallery-info p {
-  padding-bottom: 30px;
-} */
-
-.clear {
-  clear: both;
-}
-
-/* Features */
-
-.box {
-  float: left;
-  width: 33.3%;
-  padding: 5rem;
-  text-align: center;
-  overflow: hidden;
-}
-
-.box p {
-  padding-bottom: 20px;
-}
-
-.box i {
-  margin-bottom: 10px;
 }
 
 .footer {
@@ -233,10 +105,6 @@ p {
 
 #navbar .logo {
   font-weight: 400;
-}
-
-.text-primary {
-  color: #2196f3;
 }
 
 /* #navbar ul li {
@@ -298,45 +166,4 @@ p {
 .card p {
   text-align: center;
   margin-top: 2rem;
-}
-
-/* Utility */
-
-.btn {
-  display: inline-block;
-  color: #fff;
-  background-color: #333;
-  font-size: 1.8rem;
-  padding: 0.8rem 2rem;
-  border: none;
-  cursor: pointer;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-.btn:hover {
-  background: #f7c08a;
-  color: #333;
-}
-.btn-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-primary {
-  background: #f7c08a;
-}
-
-.bg-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-/* Car details */
-
-.car1 .card {
-  color: #f4f4f4;
-}
-.car2 .card {
-  color: #f7c08a;
 }
