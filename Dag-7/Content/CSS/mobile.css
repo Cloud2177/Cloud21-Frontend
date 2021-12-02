@@ -1,0 +1,27 @@
+html {
+  font-size: 10px;
+}
+
+#navbar {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 14rem;
+}
+
+#navbar a {
+  padding: 1rem;
+}
+
+#gallery .row {
+  flex-direction: column;
+}
+
+#features {
+  flex-direction: column;
+}
+
+.box {
+  width: 100%;
+  padding: 3rem;
+}
