@@ -1,0 +1,49 @@
+/* Utility */
+:root {
+  --primary-color: #2196f3;
+  --dark-color: #333;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  font-size: 1.8rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: var(--dark-color);
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #f7c08a;
+  color: var(--dark-color);
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: var(--dark-color);
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: var(--dark-color);
+}
+
+.btn-secondary,
+.bg-secondary {
+  background-color: #202020;
+  color: #fff;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
