@@ -55,14 +55,14 @@ p {
   background: #444;
   color: #fff;
 }
-
+/* 
 .Container {
   margin: auto;
   max-width: 900;
   padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
 #navbar {
   display: flex;
