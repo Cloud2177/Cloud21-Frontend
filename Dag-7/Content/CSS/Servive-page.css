@@ -1,0 +1,90 @@
+header {
+  background: url(/Bilar/engine.jpg) no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+}
+
+header > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* header > section h1 {
+    color: #fff;
+} */
+
+header * {
+  z-index: 10;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.form-wrap {
+  background: #fff;
+  color: #333;
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 15px 25px;
+  min-width: 400px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.form-wrap h1 {
+  padding: 0.7rem 0;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap p {
+  font-weight: bold;
+  color: #6b6b6b;
+  font-size: large;
+}
+
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+  color: #6b6b6b;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  color: #666;
+  border: #ddd 1px solid;
+  border-radius: 4px;
+}
+
+.form-wrap button {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin: 20px 0;
+  background: #f7c08a;
+  color: #666;
+  border: #49c1a2 1px solid;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.form-wrap button:hover {
+  background: #49c1a2;
+  font-weight: bold;
+}
