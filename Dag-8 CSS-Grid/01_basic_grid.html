@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic CSS Grid</title>
+    <style>
+      .container {
+        display: grid;
+        /* grid-template-columns: 200px 200px 200px; */
+        /* grid-template-columns: repeat(3, auto); */
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 1rem;
+      }
+
+      .item {
+        background: #f4f4f4;
+        border: #888 solid 1px;
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+      }
+
+      /* section {
+        /* margin-top: 2rem; *
+        border-right: #888 1px solid;
+      } */
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="item">Rubtik 1</div>
+      <div class="item">Rubtik 2</div>
+      <div class="item">Rubtik 3</div>
+    </section>
+    <main>
+      <section>
+        <h4>Rubrik</h4>
+        <p></p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+        deleniti, nam eveniet porro itaque iste ex pariatur dicta rerum
+        excepturi perferendis dignissimos! Minima soluta facere quisquam ipsa,
+        quasi eius illum!
+      </section>
+      <aside>
+        <h4>Nyheter</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+          molestiae quod necessitatibus pariatur libero iusto eos possimus
+          recusandae alias facere minima debitis repellendus magnam fugit
+          quisquam earum placeat, voluptas accusantium?
+        </p>
+      </aside>
+    </main>
+  </body>
+</html>
