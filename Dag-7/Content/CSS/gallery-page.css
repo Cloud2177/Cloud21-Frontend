@@ -1,0 +1,68 @@
+body {
+  background: #dddd;
+}
+
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.header {
+  /* måste jag inte använda padding för att får ner h1:an eller 
+  vid iphone 5? och vad gör man med om oss som fallar ner?*/
+  padding-top: 7rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  border: #888 solid 1px;
+  border-radius: 0.7rem;
+  padding: 0 1rem 1rem 1rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.7);
+  /* border: #888 solid 1px;
+  background: #f4f4f4;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 2rem;  bara detta fick det jag ville 
+  var tanken att man skulle använda flex och grid??*/
+}
+
+.gallery-card p {
+  text-align: center;
+}
+
+.gallery-card img {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .gallery-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
